@@ -66,6 +66,9 @@ public class Lab12 {
             case 12:
                 MonthOfName = "December";
                 number_Of_DaysInMonth = 31;
+                break;
+            default:
+                System.out.println("invalid");
         }
         System.out.print(MonthOfName + " " + year + " has " + number_Of_DaysInMonth + " days\n");
     }
