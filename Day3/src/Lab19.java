@@ -11,26 +11,25 @@ public class Lab19 {
         int c = scanner.nextInt();
         System.out.println("enter the marks on sub 4");
         int d = scanner.nextInt();
-        int e = (int) ((a + b + c + d) / 00.4);
+        int e = (int) ((a + b + c + d) / 4);
         System.out.println(e);
-        switch (e) {
-            case (90):
-                System.out.println("first  ");
-                break;
-            case (80):
-                System.out.println("sec");
-                break;
-            case (70):
-                System.out.println("third");
-                break;
-            case (60):
-                System.out.println("forth");
-                break;
-            case (50):
-                System.out.println("six");
-                break;
-            default:
-                System.out.println("fail");
+        if (e>=90 ){
+            System.out.println("first");
+
+
+
+        } else if (e>=80 && e<90) {
+            System.out.println("second");
+
+        } else if (e>=70 && e<80) {
+            System.out.println("third");
+
+        } else if (e>=60 && e<50) {
+            System.out.println("fourth");
+
+        }
+        else {
+            System.out.println("fail");
         }
     }
 }

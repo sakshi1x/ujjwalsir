@@ -3,16 +3,15 @@ import java.util.Scanner;
 public class Lab10 {
 
         public static void main(String args[]){
-            char ch;//variable declaration
+            char ch;
             Scanner scan=new Scanner(System.in);
-            //create a scanner object for input
 
             System.out.println("Enter the character  ");
-            ch=scan.next().charAt(0);;// store the input from the user
-            if(ch>='A' && ch<='Z'){//if it is true ,display upper case
+            ch=scan.next().charAt(0);
+            if(ch>='A' && ch<='Z'){
                 System.out.println(ch+" is an upper case letter ");
             }
-            else if(ch>='a' && ch<='z'){//if it is true ,display lower case
+            else if(ch>='a' && ch<='z'){
                 System.out.println(ch+" is a lower case letter ");
             }
             else{
