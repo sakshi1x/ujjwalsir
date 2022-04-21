@@ -12,7 +12,7 @@ public class Lab16 {
         System.out.println("enter the first side of triangle");
 
         int c= scanner.nextInt();
-        boolean b1 =( a == c & b == c)||(a==b &&b==c)||(a==c &&a==b);
+        boolean b1 =( a == c )||(a==b )||(b==c );
         if (a==b && b==c && a==c){
             System.out.println("equi");
         } else if (b1){
