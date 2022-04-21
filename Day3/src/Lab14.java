@@ -10,7 +10,7 @@ public class Lab14 {
         System.out.println("enter a third angle of triagle");
         int c= scanner.nextInt();
         int d = a+b+c;
-        if (d==360){
+        if (d==180){
             System.out.println("valid");
         }
         else {
